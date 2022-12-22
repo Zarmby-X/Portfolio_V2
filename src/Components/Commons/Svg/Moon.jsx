@@ -1,0 +1,95 @@
+const Moon = (proops) => {
+    return (
+        <svg width={proops.width}  viewBox="0 0 76 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M76 40C76 62.0914 58.9868 80 38 80C17.0132 80 0 62.0914 0 40C0 17.9086 17.0132 0 38 0C58.9868 0 76 17.9086 76 40Z" fill="#F7F7F7" />
+            <path d="M32.1562 75.9825C53.0685 75.9825 70.0213 57.9953 70.0213 35.8071C70.0213 22.8623 64.2512 11.3475 55.2911 4C67.5814 10.6391 76 24.1887 76 39.8246C76 62.0129 59.0472 80 38.1349 80C29.4229 80 21.3982 76.8783 15 71.6317C20.1504 74.4139 25.9806 75.9825 32.1562 75.9825Z" fill="#D3D3D3" />
+            <g filter="url(#filter0_i_4_17)">
+                <ellipse cx="30.5" cy="13.5" rx="8.5" ry="7.5" fill="#DEDEDE" />
+            </g>
+            <path d="M38.5 13.5C38.5 17.309 34.9789 20.5 30.5 20.5C26.0211 20.5 22.5 17.309 22.5 13.5C22.5 9.69098 26.0211 6.5 30.5 6.5C34.9789 6.5 38.5 9.69098 38.5 13.5Z" stroke="#F6F6F6" />
+            <g filter="url(#filter1_i_4_17)">
+                <ellipse cx="11" cy="53.5" rx="6" ry="5.5" fill="#DEDEDE" />
+            </g>
+            <path d="M16.5 53.5C16.5 56.2214 14.0794 58.5 11 58.5C7.92059 58.5 5.5 56.2214 5.5 53.5C5.5 50.7786 7.92059 48.5 11 48.5C14.0794 48.5 16.5 50.7786 16.5 53.5Z" stroke="#F6F6F6" />
+            <g filter="url(#filter2_i_4_17)">
+                <ellipse cx="15" cy="25.5" rx="5" ry="4.5" fill="#DEDEDE" />
+            </g>
+            <path d="M19.5 25.5C19.5 27.6609 17.5361 29.5 15 29.5C12.4639 29.5 10.5 27.6609 10.5 25.5C10.5 23.3391 12.4639 21.5 15 21.5C17.5361 21.5 19.5 23.3391 19.5 25.5Z" stroke="#F6F6F6" />
+            <g filter="url(#filter3_i_4_17)">
+                <ellipse cx="33.5058" cy="45.8663" rx="12.4992" ry="11.8593" transform="rotate(-0.0320273 33.5058 45.8663)" fill="#DEDEDE" />
+            </g>
+            <path d="M45.505 45.8596C45.5084 52.1087 40.1642 57.2218 33.5121 57.2256C26.8601 57.2293 21.5101 52.1221 21.5066 45.873C21.5031 39.6239 26.8474 34.5107 33.4994 34.507C40.1515 34.5033 45.5015 39.6104 45.505 45.8596Z" stroke="#F6F6F6" />
+            <g filter="url(#filter4_i_4_17)">
+                <path d="M55.2048 67.5C55.2048 70.8137 52.2946 73.5 48.7048 73.5C45.1149 73.5 42.2048 70.8137 42.2048 67.5C42.2048 64.1863 45.1149 61.5 48.7048 61.5C52.2946 61.5 55.2048 64.1863 55.2048 67.5Z" fill="#DEDEDE" />
+            </g>
+            <path d="M54.7048 67.5C54.7048 70.5006 52.0569 73 48.7048 73C45.3526 73 42.7048 70.5006 42.7048 67.5C42.7048 64.4994 45.3526 62 48.7048 62C52.0569 62 54.7048 64.4994 54.7048 67.5Z" stroke="#F6F6F6" />
+            <g filter="url(#filter5_i_4_17)">
+                <ellipse cx="64" cy="39.5" rx="10" ry="9.5" fill="#DEDEDE" />
+            </g>
+            <path d="M73.5 39.5C73.5 44.4467 69.2712 48.5 64 48.5C58.7288 48.5 54.5 44.4467 54.5 39.5C54.5 34.5533 58.7288 30.5 64 30.5C69.2712 30.5 73.5 34.5533 73.5 39.5Z" stroke="#F6F6F6" />
+            <defs>
+                <filter id="filter0_i_4_17" x="22" y="6" width="18" height="16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_innerShadow_4_17" />
+                    <feOffset dx="1" dy="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.439444 0 0 0 0 0.439444 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_17" />
+                </filter>
+                <filter id="filter1_i_4_17" x="5" y="48" width="13" height="12" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_innerShadow_4_17" />
+                    <feOffset dx="1" dy="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.439444 0 0 0 0 0.439444 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_17" />
+                </filter>
+                <filter id="filter2_i_4_17" x="10" y="21" width="11" height="10" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_innerShadow_4_17" />
+                    <feOffset dx="1" dy="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.439444 0 0 0 0 0.439444 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_17" />
+                </filter>
+                <filter id="filter3_i_4_17" x="21.0066" y="34.007" width="25.9983" height="24.7186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_innerShadow_4_17" />
+                    <feOffset dx="1" dy="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.439444 0 0 0 0 0.439444 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_17" />
+                </filter>
+                <filter id="filter4_i_4_17" x="42.2048" y="61.5" width="13" height="12" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dx="1" dy="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.439444 0 0 0 0 0.439444 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_17" />
+                </filter>
+                <filter id="filter5_i_4_17" x="54" y="30" width="21" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_innerShadow_4_17" />
+                    <feOffset dx="1" dy="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.466667 0 0 0 0 0.439444 0 0 0 0 0.439444 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_4_17" />
+                </filter>
+            </defs>
+        </svg>
+    );
+}
+
+export default Moon;

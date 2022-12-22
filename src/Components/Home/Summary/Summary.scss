@@ -1,0 +1,144 @@
+#SummaryMainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#CoreToolsHeader {
+    width: 90%;
+    height: 80px;
+    background: linear-gradient(91.05deg, rgba(0, 133, 255, 0.6) 0.39%, rgba(0, 133, 255, 0.1) 100.96%);
+    backdrop-filter: blur(3.5px);
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.iconsBarSummary{
+    width: 200%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    animation: linear infinite 10s BannerMovingSummary;
+}
+
+@keyframes BannerMovingSummary {
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+#SummaryTechnologiesTittle{
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+}
+
+#VsiaulStudioLogoContainer{
+    width: 5%;
+}
+
+#ReactLogoContainer{
+    width: 2%;
+}
+
+#GitLogoContainer{
+    width: 3.5%;
+}
+
+#DotNetLogoContainer{
+    width: 1.9%;
+}
+
+#SqlServerContainer{
+    width: 2.5%;
+}
+
+#JavascriptContainer{
+    width: 1.9%;
+}
+
+#SummaryInfoMainConatiner{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#SummaryVideoMainContainer{
+    width: 49%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 70px;
+}
+
+#SummaryVideoTittle{
+    font-size: 64px;
+    letter-spacing: 15px;
+}
+
+#SummaryVideo{
+    width: 100%;
+    border-radius: 2%;
+    filter: grayscale(1);
+}
+
+#videoContainer{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#videoContainer:hover #PlayButton{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+#PlayButton{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+    opacity: 60%;
+}
+
+#SummaryTextMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 48%;
+    height: 67%;
+    margin-top: 70px;
+}
+
+#SummaryTextTittle{
+    font-size: 64px;
+    letter-spacing: 15px;
+    margin-bottom: 30px;
+}
+
+.SummaryText{
+    font-size: 22px;
+    text-align: justify;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}

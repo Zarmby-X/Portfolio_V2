@@ -1,0 +1,155 @@
+$Primary-Color: #0085FF;
+$Thertiary-Color: #08080B;
+
+#NavBarMainContainer{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    position: fixed;
+    z-index: 2;
+    padding-bottom: 20px;
+}
+
+#NavBarSocialMediaSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    grid-column: 2/3;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#NavBarSocialMediaSection > div{
+    margin: 0px 25px;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.NavBarSocialMediaSubLine{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: translateX(-100%);
+    transition: all 500ms;
+}
+
+#NavBarSocialMediaSection > div:hover
+.NavBarSocialMediaSubLine{
+    transform: translateX(0%);
+}
+
+#NavBarTittleSection{
+    grid-column: 3/4;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    user-select: none;
+}
+
+#NavBarTittleSection:hover
+#NavBarTittleSectionSecondary{
+    color: #F6F6F6;
+    transform: translateX(0px);
+}
+
+#NavBarTittleSection:hover
+#NavBarTittleSectionPrincipal{
+    color: transparent;
+    transform: translateX(-30px);
+}
+
+#NavBarTittleSection > p{
+    font-size: 50px;
+    position: absolute;
+    bottom: -18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 150ms;
+}
+
+#NavBarTittleSectionSecondary{
+    transform: translateX(30px);
+    color: transparent;
+}
+
+#NavBarMenuSection{
+    width: 100%;
+    height: 100%;
+    grid-column: 4/5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.NavBarMenuOption{
+    cursor: pointer;
+    margin: 0px 20px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.NavBarSocialMenuSubLine{
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: white;
+    transition: all 300ms;
+}
+
+#NavBarMenuSection > div:hover
+.NavBarSocialMenuSubLine{
+    transform: scaleX(1);
+}
+
+#NabVarBurguerButton{
+    width: 35px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+#Line1{
+    transform: translateY(-5px);
+    border-radius: 15%;
+}
+
+#Line2{
+    transform: translateY(5px);
+    border-radius: 15%;
+}
+
+.NabVarBurguerButtonLine{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    border-radius: 15%;
+    transition: all 150ms;
+}
+
+#NabVarBurguerButton:hover
+.NabVarBurguerButtonLine{
+    background-color: $Primary-Color;
+}
+
+#NabVarBurguerButton:hover
+#Line1{
+    transform: rotateZ(25deg) translateX(-40%) translateY(100%);
+}
+
+#NabVarBurguerButton:hover
+#Line2{
+    transform: rotateZ(-25deg) translateX(40%) translateY(100%);
+}
